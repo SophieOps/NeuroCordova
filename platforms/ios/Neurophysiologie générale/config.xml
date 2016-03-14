@@ -30,12 +30,12 @@
     </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <name>HelloCordova</name>
+    <name>Neurophysiologie générale</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Application de simulation pour les examens du cours de Neurophysiologie générale de l'UMONS dans la faculté de médecine.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="sophie.opsommer@gmail.com" href="https://be.linkedin.com/in/sophie-opsommer-36322a69">
+        Opsommer Sophie
     </author>
     <content src="index.html" />
     <access origin="*" />

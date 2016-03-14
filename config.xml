@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Neurophysiologie générale</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Application de simulation pour les examens du cours de Neurophysiologie générale de l'UMONS dans la faculté de médecine.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="sophie.opsommer@gmail.com" href="https://be.linkedin.com/in/sophie-opsommer-36322a69">
+        Opsommer Sophie
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />

@@ -33,16 +33,45 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <title>Neurophysiologie générale</title>
     </head>
     <body>
-        <div class="app">
+        <!--<div >
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-        </div>
+        </div> -->
+        <header>
+        	<h1>Neurophysiologie générale</h1>
+        </header>
+        <section>
+        <article>
+        	<img src="img/LogoFacMed.jpg" alt="Logo de la faculté de médecine" id="logo_fac"/>
+        </article>
+        </section>
+        <section id="user">
+        	<aside class="right">
+	    	    <a href="sign_in.html"><img src="img/user_add.png" alt="to add a new user" id="user_add"/></a>
+	    	</aside>
+	        <article>
+	        	<div class="left">
+	        		<img src="img/user_icon.png" alt="icon of a user" id="user_icon"/>
+	        	</div>
+	        	<div class="input">
+	        		<input placeholder=" Identifiant" id="id" type="text" > <!-- matricule-->
+		        	<br />
+		        	<input placeholder=" Mot de passe" id="mdp" type="text" >  <!--mot de passe-->
+		        </div>
+		        <div class="right">
+		        	<a href="home.html"><img src="img/user_sign.jpg" alt="authentification" id="user_sign"/></a>
+		        </div>
+	        </article>
+        </section>
+
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
